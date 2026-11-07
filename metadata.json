@@ -1,0 +1,8 @@
+{
+  "name": "mobile Curtain Studio · Quote Calculator",
+  "description": "Counter-speed, workshop-precise curtain quote calculator with visual KETEL arithmetic, hem-saving optimization, 2D guillotine offcut reuse, and railroad cut planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

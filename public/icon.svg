@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#214f40" />
+      <stop offset="100%" stop-color="#143127" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="fabric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eaf2eb" />
+      <stop offset="100%" stop-color="#c8dcce" />
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  
+  <!-- Curtain Rod -->
+  <rect x="72" y="104" width="368" height="14" rx="7" fill="url(#gold)" />
+  <circle cx="72" cy="111" r="14" fill="url(#gold)" />
+  <circle cx="440" cy="111" r="14" fill="url(#gold)" />
+  
+  <!-- Rings -->
+  <circle cx="120" cy="111" r="10" fill="none" stroke="url(#gold)" stroke-width="4" />
+  <circle cx="180" cy="111" r="10" fill="none" stroke="url(#gold)" stroke-width="4" />
+  <circle cx="256" cy="111" r="10" fill="none" stroke="url(#gold)" stroke-width="4" />
+  <circle cx="332" cy="111" r="10" fill="none" stroke="url(#gold)" stroke-width="4" />
+  <circle cx="392" cy="111" r="10" fill="none" stroke="url(#gold)" stroke-width="4" />
+
+  <!-- Draped Left Curtain -->
+  <path d="M 106 120 Q 150 120 180 120 C 180 220 120 280 156 380 C 170 415 130 425 106 425 C 90 425 96 260 106 120 Z" fill="url(#fabric)" />
+  <!-- Draped Right Curtain -->
+  <path d="M 406 120 Q 362 120 332 120 C 332 220 392 280 356 380 C 342 415 382 425 406 425 C 422 425 416 260 406 120 Z" fill="url(#fabric)" />
+  
+  <!-- Valance Swag -->
+  <path d="M 170 120 Q 256 220 342 120 Q 256 160 170 120 Z" fill="#ffffff" opacity="0.9" />
+
+  <!-- Gold Tiebacks -->
+  <path d="M 104 290 Q 146 315 160 280" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round" />
+  <path d="M 408 290 Q 366 315 352 280" fill="none" stroke="url(#gold)" stroke-width="9" stroke-linecap="round" />
+  <circle cx="160" cy="285" r="7" fill="url(#gold)" />
+  <circle cx="352" cy="285" r="7" fill="url(#gold)" />
+</svg>
